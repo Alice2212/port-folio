@@ -32,8 +32,8 @@ export default function Home() {
           </Link>
 
           {/* github */}
-          <Link href="www.linkedin.com/in/oyekalealice" passHref>
-            <a href="www.linkedin.com/in/oyekalealice" target="_blank">
+          <Link href="https:linkedin.com/in/oyekalealice" passHref>
+            <a href="https:linkedin.com/in/oyekalealice" target="_blank">
               <BsLinkedin />
             </a>
           </Link>
@@ -47,6 +47,7 @@ export default function Home() {
           </h3>
           <a
             href="https://drive.google.com/file/d/1YblmMDW4tZs6tKt_V1DVDPaaOYvwmEe3/view?usp=share_link"
+            target="_blank"
             className="btn btn-primary"
           >
             Download Resume <BsDownload />
@@ -62,7 +63,7 @@ export default function Home() {
             <span className="material-icons-sharp">design_services</span>
           </div>
           <div className="inner-circle">
-            <Image src="/../images/alice.jpg" alt="" width={500} height={500} />
+            <Image src={"/images/alice.jpg"} alt="" width={200} height={200} />
           </div>
         </div>
       </section>
