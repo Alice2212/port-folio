@@ -2,7 +2,7 @@ import Head from "next/head";
 import { Navbar } from "@/components/Navbar";
 import Link from "next/link";
 import Image from "next/image";
-import classes from "/..styles/home.module.css"
+import styles from "./Home.module.css";
 import { BsTwitter, BsGithub, BsLinkedin, BsDownload } from "react-icons/bs";
 
 export default function Home() {
@@ -16,11 +16,11 @@ export default function Home() {
 
       {/* home */}
       <section className="container ">
-        <div className="{classes.home} flex top-8 relative m-auto ">
+        <div className="{styles.home}  top-8 relative m-auto  place-items-center">
           {/* socials */}
           <div className="socials">
             {/* twitter link */}
-            <Link 
+            <Link
               href="https://twitter.com/AliceOyekale"
               target="_blank"
               passHref
