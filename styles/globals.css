@@ -27,8 +27,33 @@
     )
     rgb(var(--background-start-rgb));
 } */
+Image{
+  width: 100%;
+}
 
 .container {
-  max-width: 90%;
-  margin: auto;
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+.btn {
+	padding: 1rem 1.5rem;
+	font-size: 1.1rem;
+	border-radius: 25px;
+	color: #141415;
+	background: #fff;
+	display: inline-block;
+	margin: 1.5rem 0;
+	transition: var(--transition);
+}
+
+.btn:hover {
+	background: #c4c4c4;
+	color: #df2a1a;
+}
+
+.btn-primary {
+	color: #fff;
+	background: purple;
 }

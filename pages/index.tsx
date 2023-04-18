@@ -2,7 +2,7 @@ import Head from "next/head";
 import { Navbar } from "@/components/Navbar";
 import Link from "next/link";
 import Image from "next/image";
-import styles from "./Home.module.css";
+import styles from "../styles/Home.module.css";
 import { BsTwitter, BsGithub, BsLinkedin, BsDownload } from "react-icons/bs";
 
 export default function Home() {
@@ -15,10 +15,10 @@ export default function Home() {
       <Navbar />
 
       {/* home */}
-      <section className="container ">
-        <div className="{styles.home}  top-8 relative m-auto  place-items-center">
+      <section className={styles.home} >
+        <div className={styles["home-container"]} >
           {/* socials */}
-          <div className="socials">
+          <div className={styles.socials}>
             {/* twitter link */}
             <Link
               href="https://twitter.com/AliceOyekale"
@@ -39,14 +39,14 @@ export default function Home() {
 
             {/* github */}
             <Link href="https:linkedin.com/in/oyekalealice" passHref>
-              <a href="https:linkedin.com/in/oyekalealice" target="_blank">
+              <a href="https:linkedin.com/in/oyekalealice" target="_blank" className="text-">
                 <BsLinkedin />
               </a>
             </Link>
           </div>
 
           {/* Introduction */}
-          <div className="content">
+          <div className={styles.content}>
             <h1>Frontend Software Engineer</h1>
             <h3>
               Hi, I'm <span className="text-rose-700">Alice</span>
@@ -61,14 +61,14 @@ export default function Home() {
           </div>
 
           {/* div class circle */}
-          <div className="profile-area">
-            <div className="outer-circle">
+          <div className={styles['profile-area']}>
+            <div className={styles["outer-circle"]}>
               <span className="material-icons-sharp">design_services</span>
               <span className="material-icons-sharp">code</span>
               <span className="material-icons-sharp">code_off</span>
               <span className="material-icons-sharp">design_services</span>
             </div>
-            <div className="inner-circle">
+            <div className={styles["inner-circle"]}>
               <Image
                 src={"/images/alice.jpg"}
                 alt=""
