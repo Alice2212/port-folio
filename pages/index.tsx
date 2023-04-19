@@ -70,6 +70,7 @@ export default function Home() {
             </div>
             <div className={styles["inner-circle"]}>
               <Image
+              className={styles['profile-image']}
                 src={"/images/alice.jpg"}
                 alt=""
                 width={200}

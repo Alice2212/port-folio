@@ -1,6 +1,7 @@
 .home {
   display: grid;
   place-items: center;
+  margin-top: 5rem;
   /* position: relative; */
   /* top: 8rem; */
   padding-bottom: 14rem;
@@ -99,9 +100,13 @@
 }
 
 .inner-circle {
-	position: absolute;
+	position: relative;
 	width: 17rem;
 	height: 17rem;
 	border-radius: 50%;
-	overflow: hidden;
+	/* overflow: hidden; */
 }
+
+/* .profile-image{
+  border-radius: 100%;
+} */
