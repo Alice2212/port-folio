@@ -15,8 +15,8 @@ export default function Home() {
       <Navbar />
 
       {/* home */}
-      <section className={styles.home} >
-        <div className={styles["home-container"]} >
+      <section className={styles.home}>
+        <div className={styles["home-container"]}>
           {/* socials */}
           <div className={styles.socials}>
             {/* twitter link */}
@@ -39,7 +39,11 @@ export default function Home() {
 
             {/* github */}
             <Link href="https:linkedin.com/in/oyekalealice" passHref>
-              <a href="https:linkedin.com/in/oyekalealice" target="_blank" className="text-">
+              <a
+                href="https:linkedin.com/in/oyekalealice"
+                target="_blank"
+                className="text-"
+              >
                 <BsLinkedin />
               </a>
             </Link>
@@ -61,7 +65,7 @@ export default function Home() {
           </div>
 
           {/* div class circle */}
-          <div className={styles['profile-area']}>
+          <div className={styles["profile-area"]}>
             <div className={styles["outer-circle"]}>
               <span className="material-icons-sharp">design_services</span>
               <span className="material-icons-sharp">code</span>
@@ -70,7 +74,7 @@ export default function Home() {
             </div>
             <div className={styles["inner-circle"]}>
               <Image
-              className={styles['profile-image']}
+                className={styles["profile-image"]}
                 src={"/images/alice.jpg"}
                 alt=""
                 width={200}
@@ -80,6 +84,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      
     </div>
   );
 }

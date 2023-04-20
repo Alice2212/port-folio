@@ -2,8 +2,8 @@
   display: grid;
   place-items: center;
   margin-top: 5rem;
-  /* position: relative; */
-  /* top: 8rem; */
+  /* position: absolute;
+  top: 2rem; */
   padding-bottom: 14rem;
 }
 
