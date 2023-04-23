@@ -2,7 +2,6 @@ import Link from "next/link";
 import { useState } from "react";
 import Button from "./Button";
 
-
 export const Navbar = () => {
   const [active, setActive] = useState(false);
 
@@ -92,7 +91,6 @@ export const Navbar = () => {
                 Project
               </a>
             </Link>
-            <Button/>
           </div>
         </div>
       </nav>

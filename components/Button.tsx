@@ -10,7 +10,11 @@ export default function Button() {
   return (
     <div>
       <button onClick={() => setTheme(theme === "light" ? "dark" : "light")}>
-        {theme === "light" ? <BiMoon /> : <BsSunFill />}
+        {theme === "light" ? (
+          <BiMoon color="violet" fontSize="1.5em" />
+        ) : (
+          <BsSunFill color="violet" fontSize="1.5em" />
+        )}
       </button>
     </div>
   );
