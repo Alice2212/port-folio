@@ -18,6 +18,13 @@
   }
 }
 
+/* for the dark mode */
+@layer base {
+  body{
+    @apply dark:bg-gray-800 bg-white
+  }
+}
+
 /* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
