@@ -4,57 +4,54 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+html {
+  scroll-behavior: smooth;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-
-/* body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-} */
-Image{
-  width: 100%;
+body {
+  @apply text-lg;
 }
 
 .container {
-	width: 80%;
-	margin: 0 auto;
+  max-width: 90%;
+  margin: auto;
+
+}
+.projects img {
+  width: 100%;
 }
 
-
-.btn {
-	padding: 1rem 1.5rem;
-	font-size: 1.1rem;
-	border-radius: 25px;
-	color: #141415;
-	background: #fff;
-	display: inline-block;
-	margin: 1.5rem 0;
-	transition: var(--transition);
+/* color */
+.bg-primary {
+  background: #0f172a;
 }
 
-.btn:hover {
-	background: #c4c4c4;
-	color: #df2a1a;
+.bg-secondery {
+  background: #1e293b;
 }
 
-.btn-primary {
-	color: #fff;
-	background: purple;
+.bg-accent {
+  background: #7477ff;
+}
+
+.text-accent {
+  color: #7477ff;
+}
+
+nav li a {
+  @apply px-4 py-5 text-lg;
+}
+
+nav li a:hover {
+  color: #7477ff;
+}
+
+.mobile-nav {
+  @apply block md:hidden fixed top-10 py-2 w-full h-full bg-gray-900 duration-500;
+}
+
+/* hero */
+h1 {
+  font-family: "Poppins";
+  line-height: 1.5 !important;
 }
