@@ -12,8 +12,8 @@ export const Navbar = () => {
   };
 
   return (
-    <> 
-      <nav className="flex items-center flex-wrap bg-slate-100 p-3 sticky top-0 border-b border-violet-600">
+    <header className=" bg-slate-100 border-b border-violet-600 fixed w-full">
+      <nav className="flex items-center flex-wrap p-3  top-0  w-[90%] m-auto">
         <Link href="/" passHref>
           <a href="" className="inline-flex items-center p-2 mr-4 ">
             <span className="text-xl text-slate-700 font-bold uppercase tracking-wide">
@@ -21,8 +21,6 @@ export const Navbar = () => {
             </span>
           </a>
         </Link>
-        
-      
 
         {/* hamburger icon  */}
         <button
@@ -98,6 +96,6 @@ export const Navbar = () => {
           </div>
         </div>
       </nav>
-    </>
+    </header>
   );
 };

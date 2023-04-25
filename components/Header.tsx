@@ -2,6 +2,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
+
 export const Header = () => {
   const [toggle, setToggle] = useState(false);
 
@@ -12,6 +13,7 @@ export const Header = () => {
       <a href="/" className="logo text-2xl font-bold text-accent">
         Alice Oyekale
       </a>
+    
 
       {/* Desktop Nav */}
       <nav className="hidden md:block">
