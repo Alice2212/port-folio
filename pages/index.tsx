@@ -3,6 +3,7 @@ import { Hero } from "@/components/Hero";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import Head from "next/head";
+import {Contacts} from "@/components/Contact";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
      
       <Navbar />
       <Hero />
+      <Contacts />
       <Footer/>
     </div>
   );

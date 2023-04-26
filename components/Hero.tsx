@@ -53,24 +53,17 @@ export const Hero = () => {
           </div>
           <button
             type="button"
-            className="py-2.5 px-4 mr-2 mb-2 text-md font-medium text-gray-900 focus:outline-none bg-white rounded-md border border-gray-200  focus:z-10 focus:ring-4 focus:ring-gray-200 hover:border-2 hover:bg-violet-600 hover:text-white w-[50%]"
+            className="py-2.5 px-4 mr-2 mb-2 text-md font-medium text-gray-900 focus:outline-none bg-white rounded-md border border-gray-200  focus:z-10 focus:ring-4 focus:ring-gray-200 hover:border-2 hover:bg-violet-600 hover:text-white lg:w-[50%] w-full"
           >
             <a
               href="https://drive.google.com/file/d/1YblmMDW4tZs6tKt_V1DVDPaaOYvwmEe3/view?usp=share_link"
               target="_blank"
             >
               Download CV 
-              {/* <BsDownload size={20} className="mr-4 mt-1" /> */}
             </a>
           </button>
 
-          {/* <a
-            href="https://drive.google.com/file/d/1YblmMDW4tZs6tKt_V1DVDPaaOYvwmEe3/view?usp=share_link"
-            target="_blank"
-            className="flex lg:w-[40rem] justify-center lg:justify-start btn bg-violet-600  border-2 border-violet text-white px-6 py-3 hover:bg-transparent rounded-md"
-          >
-            <BsDownload className="mr-4 mt-1" /> Download CV
-          </a> */}
+        
         </div>
 
         <div className="hero-img">
@@ -79,7 +72,7 @@ export const Hero = () => {
             width={400}
             height={400}
             alt="coding illustration"
-            className="lgw-[80%] lg:ml-auto ml-0 mx-auto"
+            className="lg:w-[80%] lg:ml-auto ml-0 mx-auto"
           />
         </div>
       </div>

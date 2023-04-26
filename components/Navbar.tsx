@@ -12,7 +12,7 @@ export const Navbar = () => {
   };
 
   return (
-    <header className=" bg-slate-100 border-b border-violet-600 fixed w-full">
+    <header className=" bg-slate-100 border-b border-violet-600 fixed w-full z-10">
       <nav className="flex items-center flex-wrap p-3  top-0  w-[90%] m-auto">
         <Link href="/" passHref>
           <a href="" className="inline-flex items-center p-2 mr-4 ">
