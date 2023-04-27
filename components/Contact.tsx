@@ -3,7 +3,7 @@ export const Contacts = () => {
   return (
     <>
       
-      <div className="absolute bg-slate-300">
+      <div className="absolute bg-slate-300" id="contact">
         <section className="bg-slate-300">
           <div className="m-auto lg:grid lg:min-h-screen lg:grid-cols-12">
             <section className="relative flex h-32 items-end bg-gray-900 lg:col-span-5 lg:h-full xl:col-span-6">

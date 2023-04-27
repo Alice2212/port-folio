@@ -1,15 +1,11 @@
 import { AiOutlineMail } from "react-icons/ai";
-import { Contacts } from "@/components/Contact";
-import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
+
 
 
 export default function Contact() {
   return (
     <>
-      <Navbar/>
-      <Contacts/>
-      <Footer/>
+      
     </>
     // <section>
     //   <div className="max-w-6xl mx-auto h-48 bg-white ">

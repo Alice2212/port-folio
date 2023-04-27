@@ -4,7 +4,7 @@ import { BsTwitter, BsGithub, BsLinkedin, BsDownload } from "react-icons/bs";
 
 export const Hero = () => {
   return (
-    <section className="bg-primary text-white py-32 w-full">
+    <section className="bg-primary text-white pt-32 pb-3 w-full">
       <div className="container mx-auto grid md:grid-cols-2 items-center  justify-center md:justify-between">
         <div className="hero-info pb-5 md:pb-0 lg:max-w-[32rem] lg:text-left text-center">
           <h1 className="text-4xl lg:text-6xl ">
