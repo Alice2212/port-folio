@@ -4,7 +4,7 @@ import { BsTwitter, BsGithub, BsLinkedin, BsDownload } from "react-icons/bs";
 
 export const Hero = () => {
   return (
-    <section className="bg-primary px-5 text-white py-32">
+    <section className="bg-primary text-white py-32 w-full">
       <div className="container mx-auto grid md:grid-cols-2 items-center  justify-center md:justify-between">
         <div className="hero-info pb-5 md:pb-0 lg:max-w-[32rem] lg:text-left text-center">
           <h1 className="text-4xl lg:text-6xl ">
@@ -53,17 +53,15 @@ export const Hero = () => {
           </div>
           <button
             type="button"
-            className="py-2.5 px-4 mr-2 mb-2 text-md font-medium text-gray-900 focus:outline-none bg-white rounded-md border border-gray-200  focus:z-10 focus:ring-4 focus:ring-gray-200 hover:border-2 hover:bg-violet-600 hover:text-white lg:w-[50%] w-full"
+            className="inline-block shrink-0 rounded-md border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent hover:text-blue-600 focus:outline-none focus:ring active:text-blue-500"
           >
             <a
               href="https://drive.google.com/file/d/1YblmMDW4tZs6tKt_V1DVDPaaOYvwmEe3/view?usp=share_link"
               target="_blank"
             >
-              Download CV 
+              Download CV
             </a>
           </button>
-
-        
         </div>
 
         <div className="hero-img">

@@ -17,7 +17,7 @@ export const Navbar = () => {
         <Link href="/" passHref>
           <a href="" className="inline-flex items-center p-2 mr-4 ">
             <span className="text-xl text-slate-700 font-bold uppercase tracking-wide">
-              Alice Oyekale
+              AO
             </span>
           </a>
         </Link>
@@ -91,6 +91,14 @@ export const Navbar = () => {
                 className="lg:inline-flex lg:w-auto w-full px-6 py-2 rounded text-slate-700 font-light items-center justify-center hover:text-white  hover:-translate-y-1 hover:scale-110 hover:bg-violet-600 duration-300"
               >
                 Project
+              </a>
+            </Link>
+            <Link href="/contact" passHref>
+              <a
+                href=""
+                className="lg:inline-flex lg:w-auto w-full px-6 py-2 rounded text-slate-700 font-light items-center justify-center hover:text-white  hover:-translate-y-1 hover:scale-110 hover:bg-violet-600 duration-300"
+              >
+                Contact
               </a>
             </Link>
           </div>

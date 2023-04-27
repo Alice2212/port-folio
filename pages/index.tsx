@@ -3,8 +3,8 @@ import { Hero } from "@/components/Hero";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import Head from "next/head";
-import {Contacts} from "@/components/Contact";
-
+import { Contacts } from "@/components/Contact";
+import About from "@/components/About";
 
 export default function Home() {
   return (
@@ -13,11 +13,11 @@ export default function Home() {
         <title>Alice Oyekale</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-     
+
       <Navbar />
       <Hero />
-      <Contacts />
-      <Footer/>
+      <About />
+      <Footer />
     </div>
   );
 }

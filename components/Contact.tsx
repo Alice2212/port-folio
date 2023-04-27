@@ -1,9 +1,11 @@
+
 export const Contacts = () => {
   return (
     <>
-      <div className="absolute bg-primary">
+      
+      <div className="absolute bg-slate-300">
         <section className="bg-slate-300">
-          <div className="mx-auto lg:grid lg:min-h-screen lg:grid-cols-12">
+          <div className="m-auto lg:grid lg:min-h-screen lg:grid-cols-12">
             <section className="relative flex h-32 items-end bg-gray-900 lg:col-span-5 lg:h-full xl:col-span-6">
               <img
                 alt="Night"
@@ -47,21 +49,6 @@ export const Contacts = () => {
                     >
                       Name
                     </label>
-                    <input
-                      type="none"
-                      id="LastName"
-                      name="last_name"
-                      className=""
-                    />
-                  </div>
-
-                  <div className="col-span-6">
-                    <label
-                      htmlFor="Name"
-                      className="block text-sm font-medium text-gray-700"
-                    >
-                      Name
-                    </label>
 
                     <input
                       type="name"
@@ -71,9 +58,9 @@ export const Contacts = () => {
                     />
                   </div>
 
-                  <div className="col-span-6">
+                  <div className="col-span-6 sm:col-span-3">
                     <label
-                      htmlFor="Email"
+                      htmlFor="email"
                       className="block text-sm font-medium text-gray-700"
                     >
                       Email
