@@ -34,10 +34,10 @@ export const Contacts = () => {
                     Get in Touch
                   </h1>
 
-                  {/* <p className="mt-4 leading-relaxed text-gray-500">
+                  <p className="mt-4 leading-relaxed text-gray-500">
                     Got a project you would like me to work on? I will love to
                     hear from you
-                  </p> */}
+                  </p>
                 </div>
 
                 <form action="#" className="mt-8 grid grid-cols-6 gap-6">
@@ -47,7 +47,7 @@ export const Contacts = () => {
                       hear from you
                     </span>
                   </div>
-                  <div className="col-span-6 sm:col-span-3">
+                  <div className="col-span-6 ">
                     <label
                       htmlFor="Name"
                       className="block text-sm font-medium text-gray-700"
@@ -63,7 +63,7 @@ export const Contacts = () => {
                     />
                   </div>
 
-                  <div className="col-span-6 sm:col-span-3">
+                  <div className="col-span-6 ">
                     <label
                       htmlFor="email"
                       className="block text-sm font-medium text-gray-700"

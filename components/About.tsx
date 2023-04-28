@@ -32,7 +32,7 @@ const About = () => {
 
         <div className="about-img">
           <Image
-            src={"/images/skill.avif"}
+            src={"/images/about.avif"}
             alt="coding illustration"
             width={400}
             height={400}
