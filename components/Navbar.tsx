@@ -77,7 +77,7 @@ export const Navbar = () => {
                 About
               </a>
             </Link>
-            <Link href="/" passHref>
+            <Link href="/#skill" passHref>
               <a
                 href=" "
                 className="lg:inline-flex lg:w-auto w-full px-6 py-2 rounded text-slate-700 font-light  items-center justify-center hover:text-white  hover:-translate-y-1 hover:scale-110 hover:bg-violet-600 duration-300"
@@ -93,7 +93,7 @@ export const Navbar = () => {
                 Project
               </a>
             </Link>
-            <Link href="/#contact" passHref>
+            <Link href="/" passHref>
               <a
                 href=""
                 className="lg:inline-flex lg:w-auto w-full px-6 py-2 rounded text-slate-700 font-light items-center justify-center hover:text-white  hover:-translate-y-1 hover:scale-110 hover:bg-violet-600 duration-300"

@@ -5,6 +5,7 @@ import { Footer } from "@/components/Footer";
 import Head from "next/head";
 import { Contacts } from "@/components/Contact";
 import About from "@/components/About";
+import { Skill } from "@/components/Skills";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <About />
+      <Skill/>
       {/* <Contacts/> */}
       <Footer />
     </div>
