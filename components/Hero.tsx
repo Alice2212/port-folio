@@ -67,8 +67,8 @@ export const Hero = () => {
         <div className="hero-img">
           <Image
             src={"/images/alice.jpg"}
-            width={400}
-            height={400}
+            width={300}
+            height={300}
             alt="coding illustration"
             className=" lg:ml-auto ml-0 mx-auto rounded-full lg:mr-3"
           />

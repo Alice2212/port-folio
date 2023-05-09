@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section
       className="bg-primary
-     text-white px-5 pt-32 pb-12  min-h-[90vh]"
+     text-white px-5 pt-32 pb-12  min-h-[100vh]"
       id="about"
     >
       <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">

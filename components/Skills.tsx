@@ -4,10 +4,10 @@ export const Skill = () => {
   return (
     <section
       className="bg-primary
-     text-white px-5  min-h-[70vh]"
+     text-white px-5  min-h-[100vh]"
       id="skill"
     >
-      <div className="skills container ">
+      <div className="container ">
         <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[100px] border-indigo-600 pb-2 text-left">
           Skills
         </h2>
