@@ -13,9 +13,10 @@ body {
 }
 
 .container {
-  max-width: 90%;
+  max-width: 80%;
   margin: auto;
-
+  padding-top: 66px;
+  padding-bottom: 96px;
 }
 .projects img {
   width: 100%;
@@ -50,8 +51,52 @@ nav li a:hover {
   @apply block md:hidden fixed top-10 py-2 w-full h-full bg-gray-900 duration-500;
 }
 
+/* nav */
+.navbar {
+ background: #1b0820;
+}
+
 /* hero */
+
+.home {
+  background-image: url("../public/images/homebg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
 h1 {
   font-family: "Poppins";
   line-height: 1.5 !important;
 }
+
+.btn {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.btn:hover {
+  background-color: #a456b9;
+}
+
+.nav-item::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-item:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+
+

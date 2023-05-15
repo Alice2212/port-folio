@@ -12,11 +12,11 @@ export const Navbar = () => {
   };
 
   return (
-    <header className=" bg-slate-100 border-b border-violet-600 fixed w-full z-10">
-      <nav className="flex items-center flex-wrap p-3  top-0  w-[90%] m-auto">
+    <header className="navbar text-white fixed w-full z-10">
+      <nav className="flex items-center flex-wrap p-3  top-0  w-[85%] m-auto">
         <Link href="/" passHref>
           <a href="" className="inline-flex items-center p-2 mr-4 ">
-            <span className="text-xl text-slate-700 font-bold uppercase tracking-wide">
+            <span className="text-xl  font-bold uppercase tracking-wide">
               AO
             </span>
           </a>
@@ -67,20 +67,20 @@ export const Navbar = () => {
             <Link href="" passHref>
               <a
                 href=" "
-                className="lg:inline-flex lg:w-auto w-full px-6 py-2 rounded text-slate-700 font-light  items-center justify-center hover:text-white  hover:-translate-y-1 hover:scale-110 hover:bg-violet-600 duration-300"
+                className="nav-item lg:inline-flex lg:w-auto w-full px-6 py-2 rounded font-light  items-center justify-center hover:text-white  hover:-translate-y-1 hover:scale-110 duration-300"
               >
                 Home
               </a>
             </Link>
             <Link href="/#about">
-              <a className="lg:inline-flex lg:w-auto w-full px-6 py-2 rounded text-slate-700 font-light  items-center justify-center hover:text-white  hover:-translate-y-1 hover:scale-110 hover:bg-violet-600 duration-300">
+              <a className="nav-item lg:inline-flex lg:w-auto w-full px-6 py-2 rounded font-light  items-center justify-center hover:text-white  hover:-translate-y-1 hover:scale-110 duration-300">
                 About
               </a>
             </Link>
             <Link href="/#skill" passHref>
               <a
                 href=" "
-                className="lg:inline-flex lg:w-auto w-full px-6 py-2 rounded text-slate-700 font-light  items-center justify-center hover:text-white  hover:-translate-y-1 hover:scale-110 hover:bg-violet-600 duration-300"
+                className="nav-item lg:inline-flex lg:w-auto w-full px-6 py-2 rounded font-light  items-center justify-center hover:text-white  hover:-translate-y-1 hover:scale-110 duration-300"
               >
                 Skill
               </a>
@@ -88,7 +88,7 @@ export const Navbar = () => {
             <Link href="/" passHref>
               <a
                 href=" "
-                className="lg:inline-flex lg:w-auto w-full px-6 py-2 rounded text-slate-700 font-light items-center justify-center hover:text-white  hover:-translate-y-1 hover:scale-110 hover:bg-violet-600 duration-300"
+                className="nav-item lg:inline-flex lg:w-auto w-full px-6 py-2 rounded font-light items-center justify-center hover:text-white  hover:-translate-y-1 hover:scale-110  duration-300"
               >
                 Project
               </a>
@@ -96,7 +96,7 @@ export const Navbar = () => {
             <Link href="/" passHref>
               <a
                 href=""
-                className="lg:inline-flex lg:w-auto w-full px-6 py-2 rounded text-slate-700 font-light items-center justify-center hover:text-white  hover:-translate-y-1 hover:scale-110 hover:bg-violet-600 duration-300"
+                className="nav-item lg:inline-flex lg:w-auto w-full px-6 py-2 rounded  font-light items-center justify-center hover:text-white  hover:-translate-y-1 hover:scale-110  duration-300"
               >
                 Contact
               </a>

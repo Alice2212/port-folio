@@ -4,10 +4,10 @@ import { BsTwitter, BsGithub, BsLinkedin, BsDownload } from "react-icons/bs";
 
 export const Hero = () => {
   return (
-    <section className="bg-primary text-white pt-32 pb-3 px-5">
+    <section className="home  text-white pt-12">
       <div className="container mx-auto grid md:grid-cols-2 items-center  justify-center md:justify-between">
-        <div className="hero-info pb-5 md:pb-0 lg:max-w-[32rem] lg:text-left text-center">
-          <h1 className="text-4xl lg:text-6xl ">
+        <div className="hero-info md:pb-0 lg:max-w-[32rem] lg:text-left text-center">
+          <h1 className="text-4xl lg:text-5xl ">
             Hi, I'm <span className="text-violet-800">Alice </span>
             <br />
             <span className="text-2xl"> Frontend Developer </span>
@@ -18,7 +18,7 @@ export const Hero = () => {
             client-side websites and Web Applications
           </p>
 
-          <div className="flex py-5 justify-center lg:justify-start">
+          <div className="flex py-4 justify-center lg:justify-start">
             <Link href="">
               <a
                 href="https://twitter.com/AliceOyekale"
@@ -53,7 +53,7 @@ export const Hero = () => {
           </div>
           <button
             type="button"
-            className="inline-block shrink-0 rounded-md border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent hover:text-blue-600 focus:outline-none focus:ring active:text-blue-500"
+            className="inline-block shrink-0 rounded-md border border-white bg-white px-12 py-3 text-xl font-medium text-violet-600 transition hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-purple-600"
           >
             <a
               href="https://drive.google.com/file/d/1YblmMDW4tZs6tKt_V1DVDPaaOYvwmEe3/view?usp=share_link"

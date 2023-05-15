@@ -2,6 +2,7 @@
   display: grid;
   place-items: center;
   margin-top: 5rem;
+  background-image: url('../public/images/wave-hero-background.svg');
   /* position: absolute;
   top: 2rem; */
   padding-bottom: 14rem;
