@@ -32,7 +32,7 @@ export const Navbar = () => {
               xmlns="http://www.w3.org/2000/svg"
               className="w-6 h-6"
               viewBox="0 0 20 20"
-              fill="currentColor"
+              fill="white"
             >
               <path
                 fillRule="evenodd"
@@ -46,7 +46,7 @@ export const Navbar = () => {
               className="w-6 h-6"
               fill="none"
               viewBox="0 0 24 24"
-              stroke="currentColor"
+              stroke="white"
               strokeWidth={2}
             >
               <path
