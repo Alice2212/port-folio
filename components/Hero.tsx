@@ -6,7 +6,7 @@ export const Hero = () => {
   return (
     <section className="home text-white pt-12">
       <div className="container mx-auto flex flex-wrap items-center  justify-center md:justify-between">
-        <div className="hero-info md:pb-0 lg:max-w-[32rem] lg:text-left text-center">
+        <div className="hero-info md:pb-0 lg:max-w-[32rem] lg:text-left text-center order-2 lg:order-1">
           <h1 className="text-4xl lg:text-5xl ">
             Hi, I'm <span className="text-violet-800">Alice </span>
             <br />
@@ -18,7 +18,7 @@ export const Hero = () => {
             client-side websites and Web Applications
           </p>
 
-          <div className="flex py-4 justify-center lg:justify-start">
+          <div className="flex py-4 justify-center lg:justify-start ">
             <Link href="">
               <a
                 href="https://twitter.com/AliceOyekale"
@@ -64,7 +64,7 @@ export const Hero = () => {
           </button>
         </div>
 
-        <div className="hero-img">
+        <div className="hero-img order-1 lg:order-2 lg:pb-0 pb-12">
           <Image
             src={"/images/alice.jpg"}
             width={300}
