@@ -16,7 +16,7 @@ const About = () => {
             <p className="pb-5 pt-8">
               Hi, My Name Is Oyekale Oluwatosin Alice. I am a Frontend
               Developer. I build beautiful websites with React and Tailwind CSS.
-            </p>
+            </p> 
             <p className="pb-5">
               I am proficient in Frontend skills like React.js, Redux, Redux
               Tool Kit, Axios, Tailwind CSS, SaSS, Css3 and many more.

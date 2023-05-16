@@ -4,70 +4,70 @@ export const Skill = () => {
   return (
     <section
       className="container
-     text-black pt-24 min-h-[100vh]"
+     text-black min-h-[100vh]"
       id="skill"
     >
       <div className="">
-        <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[100px] border-violet-600 pb-2  lg:pt-24 pt-0 text-left">
+        <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[100px] border-violet-600 pb-2  lg:pt-16 pt-0 text-left">
           Skills
         </h2>
         <div className="flex flex-col mx-auto text-center justify-center items-center">
           {/* heading for title */}
           <h2 className="pb-8">I have experience with these technologies</h2>
 
-          <div className="flex flex-wrap flex-row gap-5 mx-auto justify-center lg:gap-24 lg:gap-y-8 gap-y-16">
+          <div className="flex flex-wrap flex-row gap-5 mx-auto justify-center lg:gap-16 lg:gap-y-8 gap-y-16">
             <Image
               src={"/images/html5.svg"}
               alt="coding illustration"
-              width={100}
-              height={100}
+              width={50}
+              height={50}
             />
             <Image
               src={"/images/css3.svg"}
               alt="coding illustration"
-              width={100}
-              height={100}
+              width={50}
+              height={50}
             />
 
             <Image
               src={"/images/bootstrap.svg"}
               alt="coding illustration"
-              width={100}
-              height={100}
+              width={50}
+              height={50}
             />
 
             <Image
               src={"/images/javascript.svg"}
               alt="coding illustration"
-              width={100}
-              height={100}
+              width={50}
+              height={50}
             />
 
             <Image
               src={"/images/react.svg"}
               alt="coding illustration"
-              width={100}
-              height={100}
+              width={50}
+              height={50}
             />
 
             <Image
               src={"/images/nextjs.svg"}
               alt="coding illustration"
-              width={100}
-              height={100}
+              width={50}
+              height={50}
             />
             <Image
               src={"/images/github.svg"}
               alt="coding illustration"
-              width={100}
-              height={100}
+              width={50}
+              height={50}
             />
 
             <Image
               src={"/images/tailwind.svg"}
               alt="coding illustration"
-              width={200}
-              height={200}
+              width={100}
+              height={100}
               className=""
             />
           </div>
