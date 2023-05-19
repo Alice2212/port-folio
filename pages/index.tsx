@@ -1,11 +1,11 @@
-import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import Head from "next/head";
-import { Contacts } from "@/components/Contact";
+// import { Contacts } from "@/components/Contact";
 import About from "@/components/About";
 import { Skill } from "@/components/Skills";
+import Project from "@/components/Project";
 
 export default function Home() {
   return (
@@ -18,8 +18,8 @@ export default function Home() {
       <Navbar />
       <Hero />
       <About />
-      <Skill/>
-      {/* <Contacts/> */}
+      <Skill />
+      <Project />
       <Footer />
     </div>
   );

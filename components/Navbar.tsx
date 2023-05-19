@@ -85,7 +85,7 @@ export const Navbar = () => {
                 Skill
               </a>
             </Link>
-            <Link href="/" passHref>
+            <Link href="/#project" passHref>
               <a
                 href=" "
                 className="nav-item lg:inline-flex lg:w-auto w-full px-6 py-2 rounded font-light items-center justify-center hover:text-white  hover:-translate-y-1 hover:scale-110  duration-300"

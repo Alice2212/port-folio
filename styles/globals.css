@@ -53,7 +53,8 @@ nav li a:hover {
 
 /* nav */
 .navbar {
-background:#675cc5
+background:#675cc5;
+outline: none;
 }
 
 .nav-item::after {
