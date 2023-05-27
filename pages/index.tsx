@@ -20,6 +20,7 @@ export default function Home() {
       <About />
       <Skill />
       <Project />
+
       <Footer />
     </div>
   );

@@ -98,9 +98,18 @@ h1 {
   background-color: #a456b9;
 }
 
+.icon-card {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px  #675cc5 ;
+  padding: 20px;
+  margin: 10px;
+}
+
 
 /* @media (min-width: 768px) {
     .navbar {
+      #a17a69
        background-image: url("../public/images/bg1.jpg")
     }
 } */
