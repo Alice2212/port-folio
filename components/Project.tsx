@@ -104,7 +104,7 @@ const Project = () => {
                   width={600}
                   height={400}
                 />
-                <span className="absolute bg-[#9e9c9c] top-0 left-0 w-full h-full opacity-0 transition-opacity duration-300 ease-in-out text-gray-600 hover:opacity-80 flex flex-col items-center justify-center gap-4"></span>
+                {/* <span className="absolute bg-[#9e9c9c] top-0 left-0 w-full h-full opacity-0 transition-opacity duration-300 ease-in-out text-gray-600 hover:opacity-80 flex flex-col items-center justify-center gap-4"></span> */}
               </div>
               <div className="text-center">
                 <p className="text-[14px] py-2">
