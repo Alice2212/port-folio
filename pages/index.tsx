@@ -6,6 +6,7 @@ import Head from "next/head";
 import About from "@/components/About";
 import { Skill } from "@/components/Skills";
 import Project from "@/components/Project";
+import { Contacts } from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
       <About />
       <Skill />
       <Project />
-
+      <Contacts />
       <Footer />
     </div>
   );

@@ -95,7 +95,7 @@ export const Navbar = () => {
             </Link>
             <Link href="/#contact" passHref>
               <a
-                href=""
+                href="/#contact"
                 className="nav-item lg:inline-flex lg:w-auto w-full px-6 py-2 rounded  font-light items-center justify-center hover:text-white  hover:-translate-y-1 hover:scale-110  duration-300"
               >
                 Contact

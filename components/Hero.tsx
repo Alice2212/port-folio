@@ -4,11 +4,11 @@ import { BsTwitter, BsGithub, BsLinkedin, BsDownload } from "react-icons/bs";
 
 export const Hero = () => {
   return (
-    <section className="home text-white pt-12">
+    <section className="home text-black pt-12">
       <div className="container mx-auto flex flex-wrap items-center  justify-center md:justify-between">
         <div className="hero-info md:pb-0 lg:max-w-[32rem] lg:text-left text-center order-2 lg:order-1">
           <h1 className="text-4xl lg:text-5xl ">
-            Hi, I'm <span className="text-red-200">Alice </span>
+            Hi, I'm <span className="text-violet-600">Alice </span>
             <br />
             <span className="text-2xl"> Frontend Developer </span>
           </h1>
@@ -53,13 +53,16 @@ export const Hero = () => {
           </div>
           <button
             type="button"
-            className="inline-block shrink-0 rounded-md border border-white bg-white px-12 py-3 text-xl font-medium text-violet-600 transition hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-purple-600"
+            // className="inline-block shrink-0 rounded-md border border-white bg-white px-12 py-3 text-xl font-medium text-violet-600 transition hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-purple-600"
+            className="inline-block shrink-0 rounded-md border border-violet-600 bg-white px-12 py-3 text-xl font-medium text-violet-600 transition hover:bg-violet-600 hover:text-white focus:outline-none focus:ring active:text-purple-600"
           >
             <a
               href="https://drive.google.com/file/d/1YblmMDW4tZs6tKt_V1DVDPaaOYvwmEe3/view?usp=share_link"
               target="_blank"
             >
-              Download CV
+              <span className="inline-flex flex justify-between items-center">
+                Download CV <BsDownload className="mx-4" />
+              </span>
             </a>
           </button>
         </div>

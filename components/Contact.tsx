@@ -1,8 +1,7 @@
-
 export const Contacts = () => {
   return (
     <>
-      <div className="absolute bg-slate-300" id="contact">
+      <div className=" bg-slate-300" id="contact">
         <section className="bg-slate-300">
           <div className="m-auto lg:grid lg:min-h-screen lg:grid-cols-12">
             <section className="relative flex h-32 items-end bg-gray-900 lg:col-span-5 lg:h-full xl:col-span-6">
@@ -17,9 +16,8 @@ export const Contacts = () => {
                   Get in Touch
                 </h2>
 
-                <p className="mt-4 leading-relaxed text-white/90">
-                  Got a project you would like me to work on? I will love to
-                  hear from you
+                <p className="mt-4 leading-relaxed text-white/90 ">
+                  Have a project? I would love to hear
                 </p>
               </div>
             </section>
@@ -30,19 +28,18 @@ export const Contacts = () => {
             >
               <div className="max-w-xl lg:max-w-3xl">
                 <div className="relative -mt-16 block lg:hidden">
-                  <h1 className="mt-2 text-2xl font-bold text-white sm:text-3xl md:text-4xl">
+                  <h1 className="mt-2 text-4xl font-bold text-white sm:text-3xl md:text-4xl">
                     Get in Touch
                   </h1>
 
-                  <p className="mt-4 leading-relaxed text-gray-500">
-                    Got a project you would like me to work on? I will love to
-                    hear from you
+                  <p className="mt-4 leading-relaxed text-gray-500 lg:visible invisible">
+                    Have a project? I would love to hear
                   </p>
                 </div>
 
                 <form action="#" className="mt-8 grid grid-cols-6 gap-6">
                   <div className="col-span-6">
-                    <span className="text-sm text-gray-700">
+                    <span className="text-sm text-gray-700 ">
                       Got a project you would like me to work on? I will love to
                       hear from you
                     </span>
@@ -59,7 +56,7 @@ export const Contacts = () => {
                       type="name"
                       id="Name"
                       name="name"
-                      className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm p-2.5"
+                      className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm p-2.5 focus:outline-violet-500"
                     />
                   </div>
 
@@ -75,7 +72,7 @@ export const Contacts = () => {
                       type="email"
                       id="Email"
                       name="email"
-                      className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm p-2.5"
+                      className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm p-2.5 focus:outline-violet-500"
                     />
                   </div>
 
@@ -91,12 +88,12 @@ export const Contacts = () => {
                       rows={6}
                       id="message"
                       name="message"
-                      className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm resize-none"
+                      className="mt-1 w-full p-2 rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm resize-none focus:outline-violet-500"
                     ></textarea>
                   </div>
 
                   <div className="col-span-6 sm:flex sm:items-center sm:gap-4">
-                    <button className="inline-block shrink-0 rounded-md border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent hover:text-blue-600 focus:outline-none focus:ring active:text-blue-500">
+                    <button className="inline-block shrink-0 rounded-md border border-violet-600 bg-violet-600 px-12 py-3 text-[16px] font-medium text-white transition hover:bg-transparent hover:text-gray-700 focus:outline-none focus:ring  active:text-blue-500">
                       Submit
                     </button>
                   </div>

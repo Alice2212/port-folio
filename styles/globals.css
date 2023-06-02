@@ -53,8 +53,8 @@ nav li a:hover {
 
 /* nav */
 .navbar {
-background:#675cc5;
-outline: none;
+  background: #675cc5;
+  outline: none;
 }
 
 .nav-item::after {
@@ -78,8 +78,9 @@ outline: none;
 /* hero */
 
 .home {
-  background-image: url("../public/images/bg2.avif");
-  background-repeat: no-repeat;
+  /* background-image: url("../public/images/bg2.avif"); */
+  background-image: url("../public/images/background.svg");
+  background-repeat: repeat;
   background-size: cover;
   background-position: top;
 }
@@ -101,13 +102,15 @@ h1 {
 .icon-card {
   background-color: #fff;
   border-radius: 11px;
-  box-shadow: 0 3px 10px  #675cc5 ;
+  box-shadow: 0 3px 10px #675cc5;
   padding: 20px;
   margin: 10px;
 }
 
-
-/* project image animation */
-
-
-
+/* grow on hover */
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+.grow:hover {
+  transform: scale(1.1);
+}

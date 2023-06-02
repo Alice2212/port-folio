@@ -22,7 +22,7 @@ const Project = () => {
         >
           <div className="grid lg:grid-cols-3 grid-cols-1 sm:grid-cols-1 gap-8 mx-auto">
             {/* card 1 */}
-            <div className="icon-card w-full mx-auto">
+            <div className="icon-card w-full mx-auto grow">
               <div className="relative flex items-center justify-center">
                 <Image
                   src={edusiteImg}
@@ -31,7 +31,6 @@ const Project = () => {
                   width={600}
                   height={400}
                 />
-                <span className="absolute bg-[#9e9c9c] top-0 left-0 w-full h-full opacity-0 transition-opacity duration-300 ease-in-out text-gray-600 hover:opacity-80 flex flex-col items-center justify-center gap-4"></span>
               </div>
               <div className="text-center">
                 <p className="text-[14px] py-2">
@@ -57,7 +56,7 @@ const Project = () => {
             </div>
 
             {/* card 2 */}
-            <div className="icon-card w-full mx-auto">
+            <div className="icon-card w-full mx-auto grow">
               <div className="relative flex items-center justify-center">
                 <Image
                   src={adviceImg}
@@ -66,7 +65,6 @@ const Project = () => {
                   width={600}
                   height={400}
                 />
-                <span className="absolute bg-[#9e9c9c] top-0 left-0 w-full h-full opacity-0 transition-opacity duration-300 ease-in-out text-gray-600 hover:opacity-80 flex flex-col items-center justify-center gap-4"></span>
               </div>
               <div className="text-center">
                 <p className="text-[14px] py-2">
@@ -95,7 +93,7 @@ const Project = () => {
             </div>
 
             {/* card 3 */}
-            <div className="icon-card w-full mx-auto">
+            <div className="icon-card w-full mx-auto grow">
               <div className="relative flex items-center justify-center">
                 <Image
                   src={adviceImg}

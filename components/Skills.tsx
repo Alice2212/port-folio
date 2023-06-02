@@ -15,20 +15,20 @@ export const Skill = () => {
           {/* heading for title */}
           <h2 className="pb-8">I have experience with these technologies</h2>
 
-          <div className="flex flex-wrap flex-row gap-5 mx-auto justify-center lg:gap-4 lg:gap-y-8 gap-y-8">
+          <div className="flex flex-wrap flex-row gap-5 mx-auto justify-center lg:gap-4 lg:gap-y-8 gap-y-8 ">
             <Image
               src={"/images/html5.svg"}
               alt="coding illustration"
               width={100}
               height={100}
-              className="icon-card"
+              className="icon-card grow"
             />
             <Image
               src={"/images/css3.svg"}
               alt="coding illustration"
               width={100}
               height={100}
-              className="icon-card"
+              className="icon-card grow"
             />
 
             <Image
@@ -36,7 +36,7 @@ export const Skill = () => {
               alt="coding illustration"
               width={100}
               height={100}
-              className="icon-card"
+              className="icon-card grow"
             />
 
             <Image
@@ -44,7 +44,7 @@ export const Skill = () => {
               alt="coding illustration"
               width={100}
               height={100}
-              className="icon-card"
+              className="icon-card grow"
             />
 
             <Image
@@ -52,7 +52,7 @@ export const Skill = () => {
               alt="coding illustration"
               width={100}
               height={100}
-              className="icon-card"
+              className="icon-card grow"
             />
 
             <Image
@@ -60,14 +60,14 @@ export const Skill = () => {
               alt="coding illustration"
               width={100}
               height={100}
-              className="icon-card"
+              className="icon-card grow"
             />
             <Image
               src={"/images/github.svg"}
               alt="coding illustration"
               width={100}
               height={100}
-              className="icon-card"
+              className="icon-card grow"
             />
 
             <Image
@@ -75,7 +75,7 @@ export const Skill = () => {
               alt="coding illustration"
               width={100}
               height={100}
-              className="icon-card"
+              className="icon-card grow"
             />
           </div>
         </div>
