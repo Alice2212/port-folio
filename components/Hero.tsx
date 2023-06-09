@@ -9,6 +9,7 @@ export const Hero = () => {
         <div className="hero-info md:pb-0 lg:max-w-[32rem] lg:text-left text-center order-2 lg:order-1">
           <h1 className="text-4xl lg:text-5xl ">
             Hi, I&apos;m <span className="text-violet-600">Alice </span>
+            <br/>
             <span className="text-2xl"> Frontend Developer </span>
           </h1>
 
