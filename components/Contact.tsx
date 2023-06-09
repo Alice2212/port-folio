@@ -1,3 +1,6 @@
+
+import Image from "next/image";
+
 export const Contacts = () => {
   return (
     <>
@@ -5,10 +8,13 @@ export const Contacts = () => {
         <section className="bg-slate-300">
           <div className="m-auto lg:grid lg:min-h-screen lg:grid-cols-12">
             <section className="relative flex h-32 items-end bg-gray-900 lg:col-span-5 lg:h-full xl:col-span-6">
-              <img
+              <Image
                 alt="Night"
-                src="https://t3.ftcdn.net/jpg/01/66/20/20/360_F_166202087_NCjcwcu1EwOKZKbMNyEFXGiYDiwGGkkU.jpg"
+                src={"/images/contactImg.jpg"}
+                // src="https://t3.ftcdn.net/jpg/01/66/20/20/360_F_166202087_NCjcwcu1EwOKZKbMNyEFXGiYDiwGGkkU.jpg"
                 className="absolute inset-0 h-full w-full object-cover opacity-10"
+                width={504}
+                height={360}
               />
 
               <div className="hidden lg:relative lg:block lg:p-12">

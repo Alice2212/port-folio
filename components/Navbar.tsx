@@ -12,14 +12,10 @@ export const Navbar = () => {
   };
 
   return (
-    <header className="navbar text-white fixed w-full z-10">
-      <nav className="flex items-center flex-wrap p-3  top-0  w-[85%] m-auto">
-        <Link href="/" passHref>
-          <a href="" className="inline-flex items-center p-2 mr-4 ">
-            <span className="text-xl  font-bold uppercase tracking-wide">
-              AO
-            </span>
-          </a>
+    <header className="navbar text-white fixed w-full z-10 ">
+      <nav className="flex items-center flex-wrap p-3  top-0  w-[85%] m-auto cursor-pointer">
+        <Link href="/" passHref className="inline-flex items-center p-2 mr-4 ">
+          <span className="text-xl  font-bold uppercase tracking-wide">AO</span>
         </Link>
 
         {/* hamburger icon  */}
@@ -65,41 +61,29 @@ export const Navbar = () => {
         >
           <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto font-Poppins">
             <Link href="" passHref>
-              <a
-                href=" "
-                className="nav-item lg:inline-flex lg:w-auto w-full px-6 py-2 rounded font-light  items-center justify-center hover:text-white  hover:-translate-y-1 hover:scale-110 duration-300"
-              >
+              <span className="nav-item lg:inline-flex lg:w-auto w-full px-6 py-2 rounded font-light  items-center justify-center hover:text-white  hover:-translate-y-1 hover:scale-110 duration-300">
                 Home
-              </a>
+              </span>
             </Link>
             <Link href="/#about">
-              <a className="nav-item lg:inline-flex lg:w-auto w-full px-6 py-2 rounded font-light  items-center justify-center hover:text-white  hover:-translate-y-1 hover:scale-110 duration-300">
+              <span className="nav-item lg:inline-flex lg:w-auto w-full px-6 py-2 rounded font-light  items-center justify-center hover:text-white  hover:-translate-y-1 hover:scale-110 duration-300">
                 About
-              </a>
+              </span>
             </Link>
             <Link href="/#skill" passHref>
-              <a
-                href=" "
-                className="nav-item lg:inline-flex lg:w-auto w-full px-6 py-2 rounded font-light  items-center justify-center hover:text-white  hover:-translate-y-1 hover:scale-110 duration-300"
-              >
+              <span className="nav-item lg:inline-flex lg:w-auto w-full px-6 py-2 rounded font-light  items-center justify-center hover:text-white  hover:-translate-y-1 hover:scale-110 duration-300">
                 Skill
-              </a>
+              </span>
             </Link>
             <Link href="/#project" passHref>
-              <a
-                href=" "
-                className="nav-item lg:inline-flex lg:w-auto w-full px-6 py-2 rounded font-light items-center justify-center hover:text-white  hover:-translate-y-1 hover:scale-110  duration-300"
-              >
+              <span className="nav-item lg:inline-flex lg:w-auto w-full px-6 py-2 rounded font-light items-center justify-center hover:text-white  hover:-translate-y-1 hover:scale-110  duration-300">
                 Project
-              </a>
+              </span>
             </Link>
             <Link href="/#contact" passHref>
-              <a
-                href="/#contact"
-                className="nav-item lg:inline-flex lg:w-auto w-full px-6 py-2 rounded  font-light items-center justify-center hover:text-white  hover:-translate-y-1 hover:scale-110  duration-300"
-              >
+              <span className="nav-item lg:inline-flex lg:w-auto w-full px-6 py-2 rounded  font-light items-center justify-center hover:text-white  hover:-translate-y-1 hover:scale-110  duration-300">
                 Contact
-              </a>
+              </span>
             </Link>
           </div>
         </div>
