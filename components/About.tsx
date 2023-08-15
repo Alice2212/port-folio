@@ -18,8 +18,8 @@ const About = () => {
               Developer. I build beautiful websites with React and Tailwind CSS.
             </p>
             <p className="pb-5">
-              I am proficient in Frontend skills like React.js, Redux, Redux
-              Tool Kit, Axios, Tailwind CSS, SaSS, Css3 and many more.
+              I am proficient in Frontend skills like React.js, Javascript
+              Tailwind CSS, CSS3, HTML5 .
             </p>
 
             <p>
