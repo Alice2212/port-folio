@@ -57,10 +57,10 @@ export const Hero = () => {
             className="inline-block shrink-0 rounded-md border border-violet-600 bg-white px-12 py-3 text-xl font-medium text-violet-600 transition hover:bg-violet-600 hover:text-white focus:outline-none focus:ring active:text-purple-600"
           >
             <a
-              href="https://drive.google.com/file/d/1YblmMDW4tZs6tKt_V1DVDPaaOYvwmEe3/view?usp=share_link"
+              href="https://drive.google.com/file/d/1DPLPLJhHoNMgbssxPTJLfKjW72fJblMP/view?usp=sharing"
               target="_blank"
             >
-              <span className="inline-flex flex justify-between items-center">
+              <span className="inline-flex justify-between items-center">
                 Download CV <BsDownload className="mx-4" />
               </span>
             </a>
