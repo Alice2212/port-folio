@@ -8,7 +8,7 @@ import { BsGithub, BsEye } from "react-icons/bs";
 const Project = () => {
   return (
     <section
-      className="
+      className="bg-[#FEFBF6]
      text-black lg:pt-[60px] pt-0 min-h-[100vh]"
       id="project"
     >
@@ -22,8 +22,8 @@ const Project = () => {
           className=" flex flex-col justify-center items-center mx-auto"
         >
           <div className="grid lg:grid-cols-3 grid-cols-1 sm:grid-cols-1 gap-8 mx-auto">
-             {/* card 1 */}
-             <div className="icon-card w-full mx-auto grow">
+            {/* card 1 */}
+            <div className="icon-card w-full mx-auto grow">
               <div className="relative flex items-center justify-center">
                 <Image
                   src={hotel}
@@ -129,8 +129,6 @@ const Project = () => {
                 </div>
               </div>
             </div>
-
-           
           </div>
         </div>
       </div>

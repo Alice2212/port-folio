@@ -8,6 +8,14 @@ html {
   scroll-behavior: smooth;
 }
 
+:root {
+  --gradient: linear-gradient(
+    90deg,
+    hsl(38, 100%, 98%) 21.32%,
+    hsl(144, 45%, 98%) 130%
+  );
+}
+
 body {
   @apply text-lg;
 }
@@ -78,7 +86,6 @@ nav li a:hover {
 /* hero */
 
 .home {
-  /* background-image: url("../public/images/bg2.avif"); */
   background-image: url("../public/images/background.svg");
   background-repeat: repeat;
   background-size: cover;

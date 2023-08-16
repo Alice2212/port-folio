@@ -3,7 +3,7 @@ import Image from "next/image";
 const About = () => {
   return (
     <section
-      className="
+      className="bg-[#FEFBF6]
      text-black lg:pt-24 pt-0 min-h-[100vh]"
       id="about"
     >

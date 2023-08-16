@@ -3,11 +3,11 @@ import Image from "next/image";
 export const Skill = () => {
   return (
     <section
-      className="container
-     text-black min-h-[100vh]"
+      className="container bg-[#FEFBF6] text-[#121217]
+     min-h-[100vh]"
       id="skill"
     >
-      <div className="">
+      <div className="text-[#121217]">
         <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[100px] border-violet-600 pb-2  lg:pt-16 pt-0 text-left">
           Skills
         </h2>

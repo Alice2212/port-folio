@@ -4,12 +4,12 @@ import { BsTwitter, BsGithub, BsLinkedin, BsDownload } from "react-icons/bs";
 
 export const Hero = () => {
   return (
-    <section className="home text-black pt-12">
+    <section className="home bg-[#FEFBF6] text-black pt-12 ">
       <div className="container mx-auto flex flex-wrap items-center  justify-center md:justify-between">
         <div className="hero-info md:pb-0 lg:max-w-[32rem] lg:text-left text-center order-2 lg:order-1">
           <h1 className="text-4xl lg:text-5xl ">
             Hi, I&apos;m <span className="text-violet-600">Alice </span>
-            <br/>
+            <br />
             <span className="text-2xl"> Frontend Developer </span>
           </h1>
 
