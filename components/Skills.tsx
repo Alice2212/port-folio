@@ -13,7 +13,7 @@ export const Skill = () => {
         </h2>
         <div className="flex flex-col mx-auto text-center justify-center items-center">
           {/* heading for title */}
-          <h2 className="pb-8">I have experience with these technologies</h2>
+          <h2 className="pb-8">I have built a couple of websites and applications with these technologies</h2>
 
           <div className="flex flex-wrap flex-row gap-5 mx-auto justify-center lg:gap-4 lg:gap-y-8 gap-y-8 ">
             <Image
@@ -55,13 +55,6 @@ export const Skill = () => {
               className="icon-card grow"
             />
 
-            <Image
-              src={"/images/nextjs.svg"}
-              alt="coding illustration"
-              width={100}
-              height={100}
-              className="icon-card grow"
-            />
             <Image
               src={"/images/github.svg"}
               alt="coding illustration"
