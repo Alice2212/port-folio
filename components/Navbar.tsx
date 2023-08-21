@@ -1,8 +1,6 @@
 import Link from "next/link";
 import { useState } from "react";
-
-
-
+import Image from "next/image";
 
 export const Navbar = () => {
   const [active, setActive] = useState(false);
@@ -15,7 +13,12 @@ export const Navbar = () => {
     <header className="navbar text-white fixed w-full z-10 ">
       <nav className="flex items-center flex-wrap p-3  top-0  w-[85%] m-auto cursor-pointer">
         <Link href="/" passHref className="inline-flex items-center p-2 mr-4 ">
-          <span className="text-xl  font-bold uppercase tracking-wide">AO</span>
+          <Image
+            src={"/images/logo-1.png"}
+            alt="coding illustration"
+            width={100}
+            height={100}
+          />
         </Link>
 
         {/* hamburger icon  */}
