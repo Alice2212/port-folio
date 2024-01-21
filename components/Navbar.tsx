@@ -16,9 +16,11 @@ export const Navbar = () => {
           <Image
             src={"/images/logo-1.png"}
             alt="coding illustration"
+            className="text-white"
             width={100}
             height={100}
           />
+          {/* <span className="text-xl  font-bold uppercase tracking-wide">AO</span> */}
         </Link>
 
         {/* hamburger icon  */}
@@ -89,6 +91,7 @@ export const Navbar = () => {
               </span>
             </Link>
           </div>
+       
         </div>
       </nav>
     </header>

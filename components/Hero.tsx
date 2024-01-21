@@ -40,7 +40,7 @@ export const Hero = () => {
               </a>
             </Link>
 
-            {/* github */}
+            {/* linkedin */}
             <Link href="">
               <a
                 href="https:linkedin.com/in/oyekalealice"
@@ -53,7 +53,7 @@ export const Hero = () => {
           </div>
           <button
             type="button"
-            // className="inline-block shrink-0 rounded-md border border-white bg-white px-12 py-3 text-xl font-medium text-violet-600 transition hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-purple-600"
+            
             className="inline-block shrink-0 rounded-md border border-violet-600 bg-white px-12 py-3 text-xl font-medium text-violet-600 transition hover:bg-violet-600 hover:text-white focus:outline-none focus:ring active:text-purple-600"
           >
             <a

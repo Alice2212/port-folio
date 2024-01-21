@@ -6,6 +6,7 @@ import hotel from "../public/images/hotel.png";
 import weatherImg from "../public/images/weatherImg.png";
 import urlImg from "../public/images/urlImg.png";
 import fyloImg from "../public/images/fyloImg.png";
+import insure from "../public/images/insure.png";
 import { BsGithub, BsEye } from "react-icons/bs";
 
 const Project = () => {
@@ -234,6 +235,42 @@ const Project = () => {
                   <span className="border-2 border-solid border-[#a456b9] px-6 p4-2 hover:bg-[#a456b9] hover:text-[#ffffff] cursor-pointer">
                     <a
                       href="https://github.com/Alice2212/weather-app"
+                      target="_blank"
+                    >
+                      Github
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+             {/* card 6 */}
+             <div className="icon-card w-full mx-auto grow">
+              <div className="relative flex items-center justify-center">
+                <Image
+                  src={insure}
+                  alt="random advice"
+                  className="pb-6"
+                  width={600}
+                  height={400}
+                />
+              </div>
+              <div className="text-center">
+                <p className="text-[14px] py-2">
+                  A responsive web application, built with React Js, Tailwind CSS and Node JS
+                </p>
+                <div className=" flex flex-wrap justify-center items-center text-center gap-y-2  gap-5 lg:gap-2 mx-auto">
+                  <span className="border-2 border-solid border-[#a456b9] px-6 p4-2 hover:bg-[#a456b9] hover:text-[#ffffff]  cursor-pointer">
+                    <a
+                      href="https://insure-personal-git-alice-home-alice2212.vercel.app/"
+                      target="_blank"
+                    >
+                      live Demo
+                    </a>
+                  </span>
+                  <span className="border-2 border-solid border-[#a456b9] px-6 p4-2 hover:bg-[#a456b9] hover:text-[#ffffff] cursor-pointer">
+                    <a
+                      href="https://github.com/Alice2212/Insure_personal"
                       target="_blank"
                     >
                       Github
