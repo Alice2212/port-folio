@@ -1,4 +1,19 @@
+import { useState } from "react";
+
 export const Footer = () => {
+
+   // function to get date
+   const getDate = ()=>{
+    const today = new Date();
+    const year = today.getFullYear ();
+    return year;
+  }
+
+  // state to manageYear
+  const [currentYear, setCurrentYear] = useState(getDate());
+
+ 
+
   return (
     <>
       <footer className="bg-[#675cc5] w-full shadow dark:bg-gray-900 ">
@@ -7,7 +22,7 @@ export const Footer = () => {
             <a href="" className=" ">
               OA
             </a>
-            © 2023 All Rights Reserved.
+            © {currentYear} All Rights Reserved.
           </span>
         </div>
       </footer>
