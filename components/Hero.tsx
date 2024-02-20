@@ -43,7 +43,7 @@ export const Hero = () => {
             {/* linkedin */}
             <Link href="">
               <a
-                href="https:linkedin.com/in/oyekalealice"
+                href="https://linkedin.com/in/oyekalealice"
                 target="_blank"
                 className="h-10 w-10 rounded-full hover:bg-violet-600 flex items-center justify-center cursor-pointer"
               >

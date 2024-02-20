@@ -9,6 +9,9 @@ export const Footer = () => {
     return year;
   }
 
+
+  
+
   // state to manageYear
   const [currentYear, setCurrentYear] = useState(getDate());
 
